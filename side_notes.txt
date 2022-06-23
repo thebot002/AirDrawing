@@ -1,0 +1,11 @@
+- VisionTool github: https://github.com/Malga-Vision/VisionTool
+
+Commands:
+
+    > conda activate cv_vision_tool
+    > python run_visiontool.py
+    
+Note:
+
+- Tensorflow can be upgraded to 2.9.1 (and this is needed to match with cudatoolkit 11.2 to run locally on GPU)
+- This had to be done to fix a ffmpeg error https://stackoverflow.com/questions/53684772/cannot-find-installation-of-real-ffmpeg-which-comes-with-ffprobe/65994349#65994349 with this to have the build (https://github.com/BtbN/FFmpeg-Builds/releases)
